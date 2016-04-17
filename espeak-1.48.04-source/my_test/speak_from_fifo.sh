@@ -4,5 +4,5 @@ while [ $c -gt 0 ]
 do
   echo "Run $c ..."
   (( c++ ))
-  ../src/espeak -vno  -s 90 < textfifo 
+  ../src/espeak -vno -p 110 -s 100 < textfifo 
 done
