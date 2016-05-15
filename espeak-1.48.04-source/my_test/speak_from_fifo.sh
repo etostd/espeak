@@ -1,4 +1,5 @@
 #!/bin/bash
+../src/espeak -vno -p 110 -s 100 < start.txt 
 c=1
 while [ $c -gt 0 ] 
 do
